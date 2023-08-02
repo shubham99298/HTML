@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        height: 100vh;
+        border: 2px solid black;
+      }
+      .header{
+        height: 20%;
+        border: 2px solid black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+      }
+      .box{
+        height: 60%;
+        border: 2px solid black;
+        display: flex;
+      }
+      .footer{
+        height: 20%;
+        border: 2px solid black;
+      }
+      .innerbox{
+        height: 100%;
+        width: 50%;
+        border: 1px solid black;
+      }
+      #innerbox1{
+        width: 25%;
+      }
+      #innerbox2{
+        width: 75%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .logo
+      {
+        width: 20%;
+        height: 50%;
+        border: 2px solid black;
+        
+        
+      }
+      .menu{
+     width: 40%;
+     height: 50%;
+     border: 2px solid black;
+     
+      }
+      .btn{
+        width: 20%;
+        height: 50%;
+        border: 2px solid black;
+      }
+      .pro{
+        width: 33%;
+        height: 48%;
+        border: 2px solid black;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+
+         <div class="logo"></div>
+         <div class="menu"></div>
+         <div class="btn"></div>
+
+      </div>
+      <div class="box">
+        <div class="innerbox" id="innerbox1"></div>
+        <div class="innerbox" id="innerbox2">
+            <div class="pro"></div>
+            <div class="pro"></div>
+            <div class="pro"></div>
+            <div class="pro"></div>
+            <div class="pro"></div>
+            <div class="pro"></div>
+        </div>
+      </div>
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>

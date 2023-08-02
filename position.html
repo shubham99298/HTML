@@ -7,41 +7,54 @@
 </head>
 <style>
     .box{
-        height: 200px;
-        width: 200px;
+        height: 50px;
+        width:100%;
         border: 2px solid black;
         
         background-color: white;
         display: inline-block;
-        font-size: 210px;
+        font-size: 50px;
         text-align: center;
-      
+        
         
     }
+    #box1{
+        
+        position: sticky;
 
-    #box2{
-        /* position: relative;
-        top: 50px;
-        left: 50px; */
-
-         position: absolute;
-
-        /* top: 200px;  */
-
-        top: 0px;
-      
-
-      
-      
+        /* position: fixed; */
+        top: 10px;
+        /* bottom: 0px; */
+    
     }
-</style>
-<body style="background-color: black;">
-    <!-- static , relative , absolute ,sticky,fixed -->
+    p{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+    }
 
-    <div class="box">1</div>
-    <div   class="box" id="box2">2</div>
+    /* #box2{
+
+       
+        /* position: fixed;
+        bottom: 0;
+        right: 0;
+      */
+    /* } */
+   /*  */
+</style>
+<body style="background-color: black; height: 1000vh;">
+    <!-- static , relative , absolute ,sticky,fixed -->
+    <img src="4.png"width="500px" alt="">
+    <div class="box" id="box1">1</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam repellat odit quo minus minima ipsa laborum explicabo a beatae aut esse asperiores, vitae quas architecto 
+        magnam possimus quibusdam reiciendis laudantium!</p>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor eveniet similique sequi, at explicabo blanditiis minima, delectus praesentium repellat nulla nisi molestiae architecto 
+            illum officiis illo sit quia vero nemo!</p>
+    <!-- <div   class="box" id="box2">2</div>
     <div class="box">3</div>
-    <div class="box">4</div>
+    <div class="box">4</div> -->
     
 </body>
 </html>
