@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 100vh;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+           align-items: center;
+        }
+
+        .box{
+             height: 70%;
+             width: 30%;
+             /* border: 1px solid black; */
+            
+        }
+        #innerbox1{
+            height: 70%;
+            
+            border-top: 1px solid gray;
+            border-left: 1px solid gray;
+            border-right: 1px solid gray;
+            
+        }
+        #innerbox2{
+            height: 8%;
+            border: 1px solid gray;
+           
+            text-align: center;
+        }
+        #innerbox3{
+            height: 21%;
+            border-bottom: 1px solid gray;
+            border-left: 1px solid gray;
+            border-right: 1px solid gray;
+           
+            display: flex;
+           
+        }
+        .subbox{
+            height: 90%;
+            width: 70%;
+            margin: auto;
+            
+        }
+        .logo{
+            height: 30%;
+            display: flex;
+            justify-content: center;
+            
+            
+        }
+        img{
+            width: 80%;
+            height: 100%;
+        }
+        
+        input{
+           height: 20%;
+        }
+        .input
+        {  height: 50%;
+            /* border:1px solid black; */
+          display: flex;
+          flex-direction:column ;
+       
+          justify-content: center;
+          
+
+        }
+        button{
+            height: 20%;
+           border-radius: 10px;
+           background-color: rgb(75, 59, 248);
+           color: white;
+        }
+        .links{
+            height: 29%;
+            /* border:1px solid black; */
+          
+  
+        }
+        .or{
+            display: flex;
+        }
+        hr{
+            width: 40%;
+            border-left: 1px ;
+            border-right: 1px;
+            color: gray;
+        }
+        .link{
+            
+           margin: auto;
+            width: 70%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .download{
+            width: 50%;
+        }
+        #phone
+        {
+            display: flex;
+            justify-content:center;
+        }
+        
+        
+       
+        
+       
+    </style>
+</head>
+<body>
+   <div class="container">
+   
+      <div class="box" id="phone">
+        <img  src="https://thecybersafetylady.com.au/wp-content/uploads/2018/10/Screen-Shot-2018-10-05-at-2.09.37-pm-600x900.png" alt="">
+      </div>
+
+      <div class="box" >
+        <div class="innerbox" id="innerbox1">
+             <div class="subbox">
+                <div class="logo">
+                    <img src="https://blackhillsballoons.com/wp-content/uploads/2021/01/Instagram-Logo.png" alt="">
+                </div>
+                <div class="input">
+                    <input type="text" name="" id="" placeholder="username">
+                    
+                    <input type="password" name="" id="" placeholder="password">
+                    <button>Log in</button>
+                    
+                    
+
+
+                </div>
+
+                <div class="links">
+
+                 <div class="or">
+                    <hr>or<hr>
+                 </div>
+                 <div class="link">
+                    <a href="" id="link1">log in with facebook</a>
+                    <a href=""id="link2">forget password</a>
+                    
+                 </div> 
+                 
+                </div>
+             </div>
+        </div>
+
+        <div class="innerbox" id="innerbox2">
+            Don't have a account? <a href="">sign up</a>
+        </div>
+        <div class="innerbox" id="innerbox3">
+
+
+            <img class="download" src="https://e7.pngegg.com/pngimages/270/658/png-clipart-app-store-apple-google-play-apple-text-logo-thumbnail.png" alt="">
+             <img class="download" src="https://e7.pngegg.com/pngimages/961/859/png-clipart-google-play-android-app-store-apple-android-text-rectangle-thumbnail.png" alt="">
+      </div>
+
+    
+    
+</div>
+    
+</body>
+</html>
