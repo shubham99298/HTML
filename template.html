@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .container{
+            height:200vh;
+           
+        }
+
+     nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    margin: -10px;
+    
+   }
+ .left{
+    font-size: 1rem;
+}
+nav ul{
+    display: flex;
+   justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px; 
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+ .text1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .brtag{
+            background-color: black;
+            opacity: 0.75;
+            color: white;
+            padding: 10px;
+        }
+        .house{
+            display: flex;
+            flex-wrap: wrap;
+           
+           
+        }
+        .houses img{
+            width: 357px;
+            
+           margin-right:10px
+        
+        }
+        .profile
+        {
+            display: flex;
+            
+        }
+        
+        .pics img{
+           
+            width: 350px;
+            margin-right: 10px;
+
+        }
+       hr{
+        color: lightslategrey
+       }
+       button{
+        width: 350px;
+        height: 30px;
+        border: none;
+
+       }
+       
+       .pics  span{
+        color: gray;
+       }
+       
+       .contact form{
+        display: flex;
+        flex-direction: column;
+
+       }
+       .contact form input{
+        margin: 10px;
+        padding: 15px
+       }
+       #btn{
+        background-color: black;
+        width: 200px;
+        color: white;
+        margin: 10px;
+       }
+       
+       .lasttext{
+        color: white;
+        background-color: black;
+        height: 50px;
+        padding-left: 50%;
+       }
+       .tag1{
+        position: absolute;
+        background-color: black;
+        color: white;
+        width: 150px;
+        height: 30px;
+        text-align: center;
+        font-size: 20px;
+       }
+       @media screen and (max-width:320px)
+       {
+        
+         .main img{
+            width: 450px;
+         }
+         .text1{
+            display: none;
+         }
+           .profile
+        {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .last-img img{
+            width: 100%;
+        }
+        .lasttext{
+            width: 100%;
+            margin-right: 20px;
+        }
+       }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+    <header>
+        <nav>
+            <!-- for name  -->
+            <div class="left">
+                <b>BR</b> <span>Architect</span>
+                
+            </div>
+        
+            <div class="right">
+                <ul>
+                    
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                   
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+       <div class="main">
+          <img src="https://www.w3schools.com/w3images/architect.jpg" width="100%"  >
+          <h1 class="text1"> <b class="brtag">BR</b> <span style="color: white;">Architect</span></h1>
+       </div>
+
+       <div class="projects">
+          <h2>Projects</h2>
+          <hr>
+       </div>
+
+       <div class="house">
+           <div class="houses">
+               <div class="tag1"> Summer house</div>
+              <img src="https://www.w3schools.com/w3images/house5.jpg" alt="">
+               
+           </div>
+           <div class="houses">
+            <div class="tag1"> Brick house</div>
+            <img src="https://www.w3schools.com/w3images/house2.jpg" alt="">
+           </div>
+           <div class="houses">
+            <div class="tag1">Renovated</div>
+             <img src="https://www.w3schools.com/w3images/house3.jpg" alt="">
+           </div>
+           <div class="houses">
+            <div class="tag1">Barn house</div>
+            <img src="https://www.w3schools.com/w3images/house4.jpg" alt="">
+           </div>
+           <div class="houses">
+            <div class="tag1">house</div>
+            <img src="https://www.w3schools.com/w3images/house4.jpg" alt="">
+
+           </div>
+           <div class="houses">
+            <div class="tag1"> renovated house</div>
+            <img src="https://www.w3schools.com/w3images/house4.jpg" alt="">
+
+           </div>
+           <div class="houses">
+            <div class="tag1"> brick house</div>
+            <img src="https://www.w3schools.com/w3images/house2.jpg" alt="">
+
+           </div>
+           <div class="houses">
+            <div class="tag1">house</div>
+            <img src="https://www.w3schools.com/w3images/house5.jpg" alt="">
+              
+
+           </div>
+           
+       </div>
+
+       <div class="about">
+          <h4>About</h4>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Harum provident at repellat officiis maiores, tempore explicabo veritatis voluptatum optio aliquam suscipit? Fugiat ea nostrum voluptatem m
+            olestias officia voluptatum quaerat quos.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eligendi asperiores beatae quasi, non facere ab nemo nulla amet ex a esse nisi accusamus quae tempora natus. 
+        Incidunt, id quibusdam.</p>
+       </div>
+
+       <!-- profile -->
+       <div class="profile">
+         
+        <div class="pics">
+            <img src="https://www.w3schools.com/w3images/team2.jpg" alt="">
+             <h3>john doe</h3>
+             <span>CEO &founder</span>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus nam vel hic consequatur repellendus eaque ab voluptatem, quis, ad cumque asperiores odit aperiam modi laboriosam, 
+                dolores quidem laudantium cupiditate saepe.</p>
+             <button>contact</button>
+        </div>
+        <div class="pics">
+            <img src="https://www.w3schools.com/w3images/team1.jpg" alt="">
+             <h3>john doe</h3>
+             <span>CEO &founder</span>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium tempore voluptate veritatis, dignissimos dolorem quaerat quos doloribus similique commodi ratione illum minima in repudiandae culpa! 
+                Veniam rerum eaque unde voluptatem?</p>
+             <button>contact</button>
+        </div>
+        <div class="pics">
+
+            <img src="https://www.w3schools.com/w3images/team3.jpg" alt="">
+             <h3>john doe</h3>
+             <span>CEO &founder</span>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium tempore voluptate veritatis, dignissimos dolorem quaerat quos doloribus similique commodi ratione illum minima in repudiandae culpa! 
+                Veniam rerum eaque unde voluptatem?</p>
+             <button>contact</button>
+        </div>
+        <div class="pics">
+            <img src="https://www.w3schools.com/w3images/team4.jpg" alt="">
+             <h3>john doe</h3>
+             <span>CEO &founder</span>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium tempore voluptate veritatis, dignissimos dolorem quaerat quos doloribus similique commodi ratione illum minima in repudiandae culpa! 
+                Veniam rerum eaque unde voluptatem?</p>
+             <button>contact</button>
+        </div>
+
+       </div>
+
+       <div class="contact">
+           <h2>Contact</h2>
+           <hr>
+
+           <form action="">
+            <input type="text" name="" id="" placeholder="Name">
+            <input type="email" name="" id="" placeholder="Email">
+            <input type="text" name="" id=""placeholder="subject">
+            <input type="text" name="" id="" placeholder="comment">
+            <button id="btn">SEND MESSAGE</button>
+           </form>
+       </div>
+
+
+       <div class="last-img">
+          <img src="https://www.w3schools.com/w3images/map.jpg" >
+
+           <p class="lasttext"> Powered by shubham</p>
+       </div>
+
+    </div>
+    
+</body>
+</html>
