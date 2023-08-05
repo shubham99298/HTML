@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      /* header {
+        background-color: red;
+        display: flex;
+        height: 100px;
+       
+        justify-content: space-around;
+      } */
+      .container{
+        border: 2px solid black;
+        height: 100vh;
+        display: grid;
+       grid-template-columns: 2fr 1fr 2fr 1fr;
+        grid-gap: 1rem;
+      
+      }
+      .box{
+        height: 300px;
+       border: 2px solid black;
+      
+      }
+      #imagebox{
+        height: 300px;
+        width: 150px;
+        display: grid;
+        grid-template-columns: (auto,3);
+       border: 2px solid black;
+       
+
+      }
+        /* @media  screen and (max-width:500px){
+
+
+            header{
+             background-color: yellow;
+            }
+            #b {
+                display: none;
+            }
+
+            #c {
+                display: none;
+            }
+        }
+        
+      
+      @media screen and (min-width:501px) and (max-width:1000px) {
+        header {
+          background-color: rgb(202, 202, 212);
+        }
+
+        #c {
+          display: none;
+        }
+      } */
+    </style>
+  </head>
+  <body>
+    <!-- <header>
+      <h2 id="a">shubham</h2>
+      <h2 id="b">yogender</h2>
+      <h2 id="c">rajesh</h2>
+    </header> -->
+      <div class="container">
+        <div class="box" id="box-1">
+
+          <div class="header-box"></div>
+          <div class="header-box"></div>
+          <div class="header-box"></div>
+          <div class="header-box"></div>
+
+        </div>
+
+        <div class="box" id="imagebox">
+<div class="imagebox1"></div>
+<div class="imagebox2"></div>
+<div class="imagebox3"></div>
+<div class="imagebox4"></div>
+<div class="imagebox5"></div>
+<div class="imagebox6"></div>
+
+
+        </div>
+
+        </div>
+  </body>
+</html>

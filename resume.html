@@ -4,39 +4,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <script
+      src="https://kit.fontawesome.com/7a4b62b0a4.js"
+      crossorigin="anonymous"
+    ></script>
     <style>
+        body{
+            margin: 0;
+        }
         .container
         {
             display: flex;
-        }
+            height: 130vh;
+            
+
+                }
         .box1{
-            border: 2px solid black;
+                 border: 1px solid rgba(0,0,0,0.1);
             width: 40%;
-            height: 80vh;
+            height: 120vh;
             margin: 10px;
             margin-right: 1px;
+            margin-left: 5%;
         }
         .box2{
             /* border: 2px solid black; */
+        
              margin-left: 10px;
             width: 100%;
-            height: 100vh;
+            height: 109vh;
         }
+
         .box3{
+
             width:100% ;
+            height:100px;
+            /* border: 2px solid black; */
+            border: 1px solid rgba(0,0,0,0.1);
+            
         }
         .innerbox{
-            border: 2px solid black;
+            /* border: 2px solid black; */
+            border: 1px solid rgba(0,0,0,0.1);
           margin: 10px ;
+          padding: 12px;
         }
 
             #innerbox1{
                 height: 60%;
+
             }
             #innerbox2{
-                height: 35%;
+                height: 50%;
             }
-        
+            #innerbox1 b,p{
+               margin-left: 20px;
+            }
+            
+            #innerbox1 b{
+                color: gray;
+            }
+            #innerbox1  .p1{
+                color: #009688;
+                
+          
+            }
+            #innerbox2  .p1{
+                color: #009688;
+          
+            }
+            #innerbox2 b,p{
+               margin-left: 20px;
+               margin-top: 15px;
+            }
+            #innerbox2 b{
+                color: gray;
+            }
+            
+            .box3{
+                  text-align: center;
+                  background-color: #009688;
+                  color: white;
+
+            }
+            i{
+                color: #009688;
+                opacity: 0.8;
+            }
+            .box3 i{
+                color: white;
+            }
+           h1{
+            margin-left: 20px;
+            margin-top:15px;
+            color: gray;
+            font-family:monospace; 
+
+           }
+           .skills{
+            margin-left: 20px;
+           }
+
+           hr{
+            margin: 10px 40px 10px 40px;
+            opacity: 0.5;
+           }
+/*            
+         .div1 {
+       height: 20px;
+     background-color: #ddd;
+     border-radius: 10px;
+      } */
+
+      progress{
+       
+        margin: 0 0 10px 20px;
+      }
+      h3{
+        position: absolute;
+        top: 240px;
+        left: 250px;
+        font-size: 20px;
+      }
+      .Languages{
+        margin: 0 0 0 20px;
+      }
     </style>
 </head>
 <body>
@@ -45,20 +137,100 @@
     <div class="container">
       <div class="box1">
          <img src="https://www.w3schools.com/w3images/avatar_hat.jpg" width="100%" alt="">
+          <h3>jane doe</h3>
+          
+          <p><i class="fa fa-briefcase "></i>Designer</p>
+          <p><i class="fa fa-home "></i>LOndon,UK</p>
+          <p><i class="fa fa-envelope "></i>ex@mail.com</p>
+          <p><i class="fa fa-phone "></i>1234567890</p>
+          <hr>
+          
+         <b class="skills"><i class="fa fa-asterisk "></i>skills</b>
+         <p>Adobe photoshop</p>
 
+         <!-- <progress value="90" max="100"></progress> -->
+         <!--  -->
+
+         <p>photography</p>
+
+         <progress value="80" max="100"></progress>
+
+         <p>illustrator</p>
+         <progress value="60" max="100"></progress>
+           <br>
+         <b class="Languages"> <i class="fa fa-globe "></i>Languages</b>
+         <p>English</p>
+         <progress value="50" max="100"></progress>
+         <p>Hindi</p>
+         <progress value="100" max="100"></progress>
+         
 
       </div>
 
       <div class="box2">
-        <div class="innerbox" id="innerbox1"></div>
-        <div class="innerbox" id="innerbox2"></div>
+
+        <div class="innerbox" id="innerbox1">
+            <h1><i class="fa fa-suitcase  "></i>Work experience</h1>
+            
+        <b>Front End Developer/W3schools.com</b>
+        <p class="p1"><i class="fa fa-calendar "></i>jan 2015-Current</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, harum id veniam eligendi natus a aliquid praesentium nemo magni dolorem exercitationem repudiandae vero debitis soluta 
+            suscipit doloribus recusandae, vel aut!</p>
+
+            <hr>
+
+            <b>web Developer/W3schools.com</b>
+        <p class="p1"><i class="fa fa-calendar"></i>Mar 2021-2022</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, harum id veniam eligendi natus a aliquid praesentium nemo magni dolorem exercitationem repudiandae vero debitis soluta 
+            suscipit doloribus recusandae, vel aut!</p>
+
+            <hr>
+
+            <b>Graphics/W3schools.com</b>
+        <p class="p1" ><i class="fa fa-calendar "></i>jun 2010-2020</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+
+            
+        </div>
+        <div class="innerbox" id="innerbox2">
+            <h1><i class="fa fa-certificate "></i>Education</h1>
+             <b>W3schools.com</b>
+             <p class="p1"><i class="fa fa-calendar"></i>forever</p>
+            <p>web devlopemnt all i need to know in one place</p>
+
+             <hr>
+
+             
+             <b>London business school</b>
+             <p class="p1"><i class="fa fa-calendar "></i>2013-2015</p>
+            <p>master degree</p>
+
+             <hr>
+
+             
+             <b>Schools of coding</b>
+             <p class="p1"><i class="fa fa-calendar  "></i>2010-2013</p>
+            <p>bachelor degree</p>
+
+          
+        </div>
+
       </div>   
+
 
 </div>
 
 <div class="box3">
-   
+       <p class="lastpara">Find me on social media</p>
+       <i class="fa fa-facebook-official"></i>
+       <i class="fa fa-instagram "></i>
+       <i class="fa fa-snapchat"></i>
+       <i class="fa fa-pinterest-p"></i>
+       <i class="fa fa-twitter "></i>
+       <i class="fa fa-linkedin "></i>
+       <p>Powered by shubham</p>
 </div>
+
 
 
     
